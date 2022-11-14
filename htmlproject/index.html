@@ -7,9 +7,43 @@
 <body>
 <header>
     <nav>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <div>
+                <input placeholder="UserName" type="text" name="username" value="">
+            </div>
+            <div>
+                <input placeholder="Password" type="password" name="userpass" value="">
+            </div>
+            <div>
+                <p><input checked type="radio" name="dog" value="white">White dog</p>
+                <p><input type="radio" name="dog" value="blac">Black dog</p>
+            </div>
+            <div>
+                <p><input checked type="radio" name="cat" value="white">White cat</p>
+                <p><input type="radio" name="cat" value="black">Black cat</p>
+            </div>
+            <div>
+                <p><input checked type="checkbox" name="car1" value="yes">Car 1</p>
+                <p><input type="checkbox" name="car2" value="yes">Car 2</p>
+                <p><input type="file" name="file"></p>
+            </div>
+            <div>
+                <textarea name="text" cols="30" rows="10"></textarea>
+                <br />
+                <select name="color" >
+                    <option value="red">Red</option>
+                    <option selected value="green">Green</option>
+                    <option value="blue">Blue</option>
+                </select>
+                <br />
+                <button type="submit">Send</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
         Teg nav
     </nav>
 </header>
+
 <div>
     Premier div
     <h1>Header 1</h1>
@@ -18,13 +52,27 @@
     <h4>Header 4</h4>
     <h5>Header 5</h5>
     <h6>Header 6</h6>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex molestiae quos reprehenderit velit. Fuga minima perspiciatis tempore unde velit? Ab corporis culpa, deleniti explicabo ipsum magni porro quo sed sequi?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing <br /> Ex molestiae quos reprehenderit velit. Fuga minima perspiciatis tempore unde velit? Ab corporis culpa, deleniti explicabo ipsum magni porro quo sed sequi?</p>
     <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aut autem corporis dolorem ea facilis harum inventore ipsam labore nemo neque odio perspiciatis possimus quae reiciendis rerum sed, sunt, voluptates.</span>
     <span>Span 2</span>
     <a target="_blank" href="https://www.google.com">Google</a>
 </div>
 <div>
     Second div
+    <ul>
+        <li>Text</li>
+        <li>Text</li>
+        <li>Text</li>
+        <li>Text</li>
+        <li>Text</li>
+    </ul>
+    <ol>
+        <li>Text ol</li>
+        <li>Text ol</li>
+        <li>Text ol</li>
+        <li>Text ol</li>
+        <li>Text ol</li>
+    </ol>
     <img src="img/pic.png" alt="Picture for the site">
 </div>
 <footer>
