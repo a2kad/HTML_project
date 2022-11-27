@@ -47,6 +47,8 @@ body{
     overflow: hidden;
     display: flex;
     flex-direction: column;
+	 margin: 0px 0px 0px 0px;
+	 padding: 0px 0px 0px 0px;
 }
 .content {
     flex: 1 1 auto;
